@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/styles/login.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<script src="./login.js"></script>
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="/resources/favicon/favicon-32x32.png"
+		/>
+		<title>Login</title>
+	</head>
+	<body>
+		<div class="main-container">
+			<div class="first-container">
+				<img
+					class="img-fluid logo"
+					src="../resources/Logo-Actualizado.jpeg"
+					alt=""
+					draggable="false"
+				/>
+			</div>
+			<div class="overlapped-div">
+				<div class="svg-curve" style="overflow: hidden">
+					<svg
+						viewBox="0 0 500 150"
+						preserveAspectRatio="none"
+						style="height: 100%; width: 100%"
+					>
+						<path
+							d="M213.19,0.00 C12.13,73.53 270.03,70.06 141.36,161.36 L500.00,150.00 L500.00,0.00 Z"
+							style="stroke: none; fill: #2588b1"
+						></path>
+					</svg>
+				</div>
+				<div class="second-container">
+					<div class="top-info">
+						<p class="top-info-detail title">Bienvenido</p>
+						<p class="top-info-detail">
+							Inicia sesion con tu usuario y contraseña
+						</p>
+					</div>
+					<div class="login-controls">
+						<div class="login-control">
+							<label class="user">Usuario</label>
+							<input
+								class="input"
+								type="text"
+								id="email"
+								placeholder="Digita tu usuario"
+							/>
+						</div>
+						<div class="login-control">
+							<label class="password">Contraseña</label>
+							<input
+								class="input"
+								type="password"
+								id="password"
+								placeholder="Digita tu contraseña"
+							/>
+						</div>
+						<div class="form-check form-switch login-remember">
+							<input class="form-check-input" type="checkbox" id="remember" />
+							<label class="form-check-label" for="flexSwitchCheckDefault"
+								>Recuerdame</label
+							>
+						</div>
+						<button id="login" class="login-button">Iniciar sesion</button>
+						<div class="forgot-container">
+							<div>
+								<a href="" class="forgot-item">Olvidaste tu contraseña?</a>
+								<a href="" class="forgot-item resaltada"> Click aquí</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
